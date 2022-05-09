@@ -29,10 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.white,
             ),
           ),
-          Center(
-            child: Lottie.network(
-              'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
-            ),
+          Lottie.network(
+            'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
           ),
         ],
       ),
