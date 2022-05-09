@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
+          const Text(
             'Lottie Animations',
             style: TextStyle(
               fontSize: 30,
