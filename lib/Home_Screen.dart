@@ -15,10 +15,14 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Center(
-        child: Lottie.network(
-          'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
-        ),
+      body: Column(
+        children: [
+          Center(
+            child: Lottie.network(
+              'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
+            ),
+          ),
+        ],
       ),
     );
   }
