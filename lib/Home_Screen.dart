@@ -18,9 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SizedBox(
-            height: 20,
-          ),
           Text(
             'Lottie Animations',
             style: TextStyle(
@@ -29,6 +26,9 @@ class _HomeScreenState extends State<HomeScreen> {
               letterSpacing: 2,
               color: Colors.white,
             ),
+          ),
+          SizedBox(
+            height: 20,
           ),
           Lottie.network(
             'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
