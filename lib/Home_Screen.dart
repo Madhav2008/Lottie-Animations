@@ -33,10 +33,8 @@ class _HomeScreenState extends State<HomeScreen> {
           Lottie.network(
             'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
             width: MediaQuery.of(context).size.width / 2,
-            height: MediaQuery.of(context).size.height / 2
-            ,
+            height: MediaQuery.of(context).size.height / 2,
           ),
-          
         ],
       ),
     );
