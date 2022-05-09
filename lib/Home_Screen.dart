@@ -13,7 +13,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Lottie.network('https://assets10.lottiefiles.com/packages/lf20_2juopw8b.json'),),
+      body: Center(
+        child: Lottie.network(
+            'https://assets10.lottiefiles.com/packages/lf20_2juopw8b.json'),
+      ),
     );
   }
 }
