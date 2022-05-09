@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
               fontSize: 25,
               fontWeight: FontWeight.bold,
               letterSpacing: 2,
+              color: Colors.white
             ),
           ),
           Center(
