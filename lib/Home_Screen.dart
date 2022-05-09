@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
-          Text('Lottie Animations'),
+          Text('Lottie Animations', style: TextStyle(),),
           Center(
             child: Lottie.network(
               'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
