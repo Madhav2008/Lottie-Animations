@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Text(
             'Lottie Animations',
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
               letterSpacing: 2,
               color: Colors.white,
