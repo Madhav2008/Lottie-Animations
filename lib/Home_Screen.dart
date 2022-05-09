@@ -19,7 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Text(
             'Lottie Animations',
-            style: TextStyle(),
+            style: TextStyle(
+              fontSize: 25
+            ),
           ),
           Center(
             child: Lottie.network(
