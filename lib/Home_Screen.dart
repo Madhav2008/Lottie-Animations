@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.,
       body: Center(
         child: Lottie.network(
           'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
