@@ -22,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.bold,
+              letterSpacing: 2
             ),
           ),
           Center(
