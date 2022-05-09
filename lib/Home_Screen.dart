@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.white,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 50,
           ),
           Lottie.network(
