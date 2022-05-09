@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lottie_animations/Home_Screen.dart';
-
 void main() {
   runApp(
     const MyApp(),
