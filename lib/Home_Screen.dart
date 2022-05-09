@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
-          SizedBox(height: 20,)
+          SizedBox(height: 20,),
           Text(
             'Lottie Animations',
             style: TextStyle(
