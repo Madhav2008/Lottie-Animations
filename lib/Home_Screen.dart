@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Center(
         child: Lottie.network(
-            'https://assets10.lottiefiles.com/packages/lf20_2juopw8b.json'),
+            'https://assets10.lottiefiles.com/packages/lf20_2juopw8b.json',),
       ),
     );
   }
