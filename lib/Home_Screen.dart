@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           SizedBox(
-            height: 20,
+            height: 50,
           ),
           Lottie.network(
             'https://assets10.lottiefiles.com/packages/lf20_dwmb4mrt.json',
